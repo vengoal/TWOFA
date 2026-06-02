@@ -48,7 +48,7 @@ For IBM i OS V7R2 above.
         <pre>
           SNDSMTPEMM RCP((mailbox1@domain *PRI))
            SUBJECT(some subject) NOTE(some note)
-           ATTACH((/home/twofauser/2fause.pdf *PDF *BIN))          </pre> 
+           ATTACH((/home/twofauser/2fauser.pdf *PDF *BIN))          </pre> 
     + Default only add or replace TOTP key to user, no workstation name limit control.<br> If you want limit user and workstation at th same time, Use SQL to update workstation name after add 2FA user.<br> Reference PF TWOFAPF for field description.
   - Remove 2FA user<br> excute command TWOFASET USER(2fauser) REMOVE(*YES)
   - Default only limit workstation device name TWOFA for demo usage. You can use command ADDWSE to add other workstation (for example TWOFA*) to subsystem TWOFA.<br>And those subsystem workstation name need to be same as Client workstation name on 5250 Emulator setting. <br>
