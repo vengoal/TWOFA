@@ -55,10 +55,13 @@ For IBM i OS V7R2 above.
 
 + Reference:
   - totp.c  -  https://gist.github.com/syzdek/eba233ca33e1b5a45a99
+  - [Convert Hex to Character (CVTHC)](https://www.ibm.com/docs/api/v1/content/ssw_ibm_i_76/rzatk/CVTHC.htm)
+  - [Calculate HMAC (QC3CALHM, Qc3CalculateHMAC) API](https://www.ibm.com/docs/api/v1/content/ssw_ibm_i_76/apis/qc3calhm.htm)
+  - [Generate Pseudorandom Numbers (QC3GENRN, Qc3GenPRNs) API](https://www.ibm.com/docs/api/v1/content/ssw_ibm_i_76/apis/qc3genprns.htm)
+
   - [Change SNTP Attributes (CHGNTPA)](https://www.ibm.com/docs/en/i/7.6.0?topic=ssw_ibm_i_76/cl/chgntpa.html)
   - [Send SMTP E-mail Message (SNDSMTPEMM)](https://www.ibm.com/docs/en/i/7.6.0?topic=ssw_ibm_i_76/cl/sndsmtpemm.html)
   - [Start TCP/IP Server (STRTCPSVR)](https://www.ibm.com/docs/en/i/7.6.0?topic=ssw_ibm_i_76/cl/strtcpsvr.html)
   - [End TCP/IP Server (ENDTCPSVR)](https://www.ibm.com/docs/en/i/7.6.0?topic=ssw_ibm_i_76/cl/endtcpsvr.html)
-  - [Calculate HMAC (QC3CALHM, Qc3CalculateHMAC) API](https://www.ibm.com/docs/api/v1/content/ssw_ibm_i_76/apis/qc3calhm.htm)
-  - 
+
   
